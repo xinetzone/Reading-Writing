@@ -1,3 +1,14 @@
+# 论文写作
+
+- [如何写论文](http://abacus.bates.edu/~ganderso/biology/resources/writing/HTWtoc.html)
+- [如何用Markdown写论文？](https://zhuanlan.zhihu.com/p/31690364?edition=yidianzixun&utm_source=yidianzixun&yidian_docid=0HqVqEJV&yidian_s=9&yidian_appid=yidian)
+- [如何把思维导图秒变成幻灯？](https://www.jianshu.com/p/f274cad20914)
+- [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
+
+
+
+# LaTex 使用教程
+- [从零开始 LaTeX 快速入门](http://liuchengxu.org/blog-cn/posts/quick-latex/)
 - [Latex排版全解](http://www.cnblogs.com/jingwhale/p/4250296.html)
 - [LaTex 小技巧](http://www.cnblogs.com/q735613050/p/8283134.html)
 - [LaTeX算法排版 笔记](http://www.cnblogs.com/q735613050/p/8283081.html)
