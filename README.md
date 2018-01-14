@@ -4,8 +4,7 @@
 - [如何用Markdown写论文？](https://zhuanlan.zhihu.com/p/31690364?edition=yidianzixun&utm_source=yidianzixun&yidian_docid=0HqVqEJV&yidian_s=9&yidian_appid=yidian)
 - [如何把思维导图秒变成幻灯？](https://www.jianshu.com/p/f274cad20914)
 - [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
-
-
+- [论文格式排版你真的做对了吗? 常用格式及其LaTeX书写方法介绍](https://zhuanlan.zhihu.com/p/29587837?edition=yidianzixun&utm_source=yidianzixun&yidian_docid=0HL7su2R&yidian_s=9&yidian_appid=yidian)
 
 # LaTex 使用教程
 - [从零开始 LaTeX 快速入门](http://liuchengxu.org/blog-cn/posts/quick-latex/)
@@ -22,3 +21,6 @@
 - [OverLeaf](https://www.overleaf.com/latex/templates/)
 - [元智大學論文 LaTeX 格式檔快速上手](http://exciton.eo.yzu.edu.tw/~lab/latex/howto_yzu_thesis.html)
 - [LaTeX 编辑部](http://www.latexstudio.net/hulatex/tutorial/ChineseBase.htm)
+
+# 简历
+- [你用什么写简历:word?pdf?Latex?Markdown?Html?](http://ningning.today/2015/04/03/funny/你用什么写简历/)
