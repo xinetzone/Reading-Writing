@@ -8,6 +8,9 @@
 
 # LaTex 使用教程
 - [从零开始 LaTeX 快速入门](http://liuchengxu.org/blog-cn/posts/quick-latex/)
+- [Latex之安装宏包](http://www.xuebuyuan.com/1673310.html)
+- [LaTeX 算法代码排版 --latex2e范例总结](http://www.cnblogs.com/tsingke/p/5833221.html)
+- [各种表格的绘制](https://liam0205.me/2013/08/04/LaTeX-table/)
 - [Latex排版全解](http://www.cnblogs.com/jingwhale/p/4250296.html)
 - [LaTex 小技巧](http://www.cnblogs.com/q735613050/p/8283134.html)
 - [LaTeX算法排版 笔记](http://www.cnblogs.com/q735613050/p/8283081.html)
