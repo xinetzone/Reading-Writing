@@ -1,0 +1,871 @@
+#LyX 1.6.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass yzu_report
+\begin_preamble
+
+\end_preamble
+\use_default_options false
+\language chinese-traditional
+\inputencoding UTF8
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\font_cjk bsmi
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 4cm
+\topmargin 3.5cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip 2ex
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\listings_params "basicstyle={\small},breaklines=true,comment={[l]\%\%},commentstyle={\upshape},extendedchars=false,texcl=true"
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+mbox{
+\backslash
+LaTeX}
+\end_layout
+
+\end_inset
+
+示範
+\begin_inset CommandInset label
+LatexCommand label
+name "ch:example"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+這一章目的是一些基本功能的用法。最好是與原始檔案 example_body.tex 一起對照著看。章節標題後之第一段之段首不需要內縮。
+\end_layout
+
+\begin_layout Standard
+如何顯示圖檔？圖
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:logo"
+
+\end_inset
+
+ 是元智大學的校徽，以保持長寬比例，寬 2
+\begin_inset space ~
+\end_inset
+
+cm，中間對齊顯示。插圖的標題須在圖的下方。如果是從別的文獻引用，出處則註記於圖標題下方。
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename example_fig.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:logo"
+
+\end_inset
+
+校徽 The logo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+(This logo comes from the school web page.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+如何顯示表格？表
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:income_2003"
+
+\end_inset
+
+ 是示範簡易的 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ 的表格，除了第一欄是中間對齊以外，第二、三欄是向右對齊。表格的標題須在表格上方。或者，使用只有橫線的表格，如表
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tb:income_2003_v2"
+
+\end_inset
+
+。資料的出處則註記於表格下方。 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:income_2003"
+
+\end_inset
+
+Gross income of the first two quarters of year 2003
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Restaurant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Store
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Q1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$123,000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$75,000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Q2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$45,000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$131,000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+(This table is made up for demonstration purpose.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tb:income_2003_v2"
+
+\end_inset
+
+Gross income of the first two quarters of year 2003.
+ Version 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Restaurant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Store
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Q1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$123,000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$75,000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Q2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$45,000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$131,000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+(This table is made up for demonstration purpose.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+現在來示範參考文獻的引用。根據文獻
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ieee_dmr_2_50_2002_chou"
+
+\end_inset
+
+ 的說法，此實驗必須湊齊五大元素
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jap_093_1108_2003_kondakov,ieee_ed_50_1830_2003_oriols,Chem.Mater._8_1365_1996_Papadimitrakopoulos,jap_079_2745_1996_scott,jap_087_8049_2000_adachi,jap_089_1704_2001_brutting,jap_089_4673_2001_popovic,synth.met._132_9_2002_nomura,cjk_book,thinfilm_macleod_2001"
+
+\end_inset
+
+，並用天火燒之始能畢其功。
+\end_layout
+
+\begin_layout Chapter
+數學式子
+\end_layout
+
+\begin_layout Standard
+我們在第 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "ch:example"
+
+\end_inset
+
+ 頁 (這裏的頁碼是自動查詢的) 示範了如何處理插圖以及表格。在這一章，我們來看數學公式的處理。在本文行內要書寫數學符號、式子，可以用錢符號前後包夾住表示式。如
+ $ax+b=0$ 會顯示 
+\begin_inset Formula $ax+b=0$
+\end_inset
+
+；如果要單獨展示數學公式，則用 
+\backslash
+[ 以及 
+\backslash
+] 包夾住表示式。如下
+\begin_inset Formula \[
+\sum_{k=1}^{\infty}\frac{1}{n^{2}}\]
+
+\end_inset
+
+如果公式要編號碼，則要用 
+\backslash
+begin{equation} 以及 
+\backslash
+end{equation}，並在式子中加上 
+\backslash
+label{} 的標籤。如
+\begin_inset Formula \begin{equation}
+\frac{df}{dx}\equiv\lim_{\Delta x\rightarrow0}\frac{f(x+\Delta x)-f(x)}{\Delta x}\label{eq:diff_def}\end{equation}
+
+\end_inset
+
+我們可以在公式 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:diff_def"
+
+\end_inset
+
+) 看到微分的定義。
+\end_layout
+
+\begin_layout Standard
+可以參考李果正先生寫的《大家來學 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+》，學習更多的技巧。
+\begin_inset Newline newline
+\end_inset
+
+<
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://edt1023.sayya.org/tex/latex123/index.html
+\end_layout
+
+\end_inset
+
+>
+\end_layout
+
+\begin_layout Chapter
+元智大學論文格式規範
+\end_layout
+
+\begin_layout Standard
+(本文節自《元智大學研究所學位論文格式規範條例》，文中所提之附件，
+\begin_inset Newline newline
+\end_inset
+
+詳見<
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.yzu.edu.tw/admin/1/8_7.htm
+\end_layout
+
+\end_inset
+
+>)
+\end_layout
+
+\begin_layout Section
+規格說明
+\end_layout
+
+\begin_layout Description
+封面 教務處統一格式樣本，如附件一，經教育部核可分組者是否加註組別及封面紙由各所自定。
+\end_layout
+
+\begin_layout Description
+書名頁 包括論文中英文名稱，著者及指導教授中英文姓名、校名、所名、學位論文別、提送論文英文說明及地名，提送年月等，如附件二。
+\end_layout
+
+\begin_layout Description
+口試委員會審定書 教務處統一格式樣本，如附件四，正本由各所彙整送交教務處，影本裝訂於論文內。
+\end_layout
+
+\begin_layout Description
+授權書 無論是否同意開放學術利用，本頁均須裝訂，如附件三，並與提要電子檔案開放使用欄表達一致。 (另有國科會授權書)
+\end_layout
+
+\begin_layout Description
+中英文摘要 內容應說明研究目的，資料來源，研究方法及結果等，約 500--1000 字，並以一頁為限。須有中文摘要及英文摘要，分頁書寫，格式如附件五、六。
+\end_layout
+
+\begin_layout Description
+論文尺寸及紙張 以 
+\begin_inset Formula $210\,\mathrm{mm}\times297\,\mathrm{mm}$
+\end_inset
+
+ 規格 A4 紙張繕製。封面封底採用 150 磅以上布紋紙或卡紙，顏色均由各所指定。
+\end_layout
+
+\begin_layout Description
+版面規格 紙張頂端留邊 3.5
+\begin_inset space ~
+\end_inset
+
+cm，左側留邊 4
+\begin_inset space ~
+\end_inset
+
+cm，右側留邊 2
+\begin_inset space ~
+\end_inset
+
+cm，底端留邊 2
+\begin_inset space ~
+\end_inset
+
+cm，版面底端 1
+\begin_inset space ~
+\end_inset
+
+cm 處文字版面中心線處繕打頁次。
+\end_layout
+
+\begin_layout Description
+文字規格 文章主體以中文為原則，由左至右，橫式打字繕排，文句中引用之外語原文以
+\begin_inset space ~
+\end_inset
+
+(
+\begin_inset space ~
+\end_inset
+
+)
+\begin_inset space ~
+\end_inset
+
+號附註。
+\end_layout
+
+\begin_layout Description
+頁次 (1) 中文摘要至圖表目錄等，以 i, ii, iii, \SpecialChar \ldots{}
+ 等小寫羅馬數字連續編頁。書名頁、審定書雖無須印出頁碼，但仍應編入同此之頁碼。
+\begin_inset Newline newline
+\end_inset
+
+(2) 論文中第一章以至附錄，均以 1, 2, 3, \SpecialChar \ldots{}
+ 等阿拉伯數字連續編頁。
+\end_layout
+
+\begin_layout Description
+裝訂 自論文本左端裝釘，書背外貼紙邊，打印畢業級別、學位論文別、論文名稱、校、院、所名、著者姓名。 (見附件十八)。
+\end_layout
+
+\begin_layout Section
+操作細則
+\end_layout
+
+\begin_layout Description
+目錄 按本規範所訂「論文編印項目次序」各項順序，依次編排論文內各項目名稱、章、節編號、頁次等 (見附件九、九－1，請與指導教授討論擇一採用)。
+\end_layout
+
+\begin_layout Description
+圖表目錄 文內表圖，各依應用順序，不分章節連續編號，並表列一頁目次 (見附件十、十一)。
+\end_layout
+
+\begin_layout Description
+符號說明 各章節內所使用之數學及特殊符號，均集中表列一頁說明，以便參閱，表內各符號不須編號 (見附件十二)。
+\end_layout
+
+\begin_layout Description
+論文本文章節編號 章次使用一、二、⋯⋯ (或第一章、第二章⋯⋯) 等中文數字編號，節段編號則配合使用一、１－１、１－１－１、1.、 (1) 、 (或第一節、第二節
+、第三節、壹、一、1、(1)) 等層次順序之阿拉伯數字。
+\end_layout
+
+\begin_layout Description
+論文本文章節名稱及段落層次 (見附件十三、十三－1，請與指導教授討論擇一採用)
+\begin_inset Newline newline
+\end_inset
+
+(1) 章次、章名稱位於打字版面頂端中央處。
+\begin_inset Newline newline
+\end_inset
+
+(2) 節次、段次均自版面左端排起，各空一、二格，繕排名稱。
+\begin_inset Newline newline
+\end_inset
+
+(3) 小段以下等號次及名稱，均以行首空數格間距表明層次。
+\end_layout
+
+\begin_layout Description
+論文本文行距 中文間隔一行，每頁最少 32 行，英文間隔 1.5 或 2 行 (1.5 space or double space)，每頁最少 28
+ 行，章名下留雙倍行距。
+\end_layout
+
+\begin_layout Description
+論文本文字距 中文為密集字距，如本規範使用字距，每行最少 28 字，英文不拘。 
+\end_layout
+
+\begin_layout Description
+論文本文文句內數字運用 有下列注意事項
+\begin_inset Newline newline
+\end_inset
+
+(1) 描述性、非運算之簡單數字及分數數字，以中文數字表示。例：一百五十人，三萬二仟元，六十分之十七等。
+\begin_inset Newline newline
+\end_inset
+
+(2) 繁長者視情況使用中文或阿拉伯數字，以簡明為宜。例：美金三十三億元 (不用 3,300,000,000 元)。$15,349 (不用一萬五千三百四十九美元
+)。
+\end_layout
+
+\begin_layout Description
+論文本文方程式及公式 有下列注意事項
+\begin_inset Newline newline
+\end_inset
+
+(1) 方程式及公式應縮格排列，並與正文儘區隔分開。例如：
+\begin_inset Formula \[
+x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}.\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(2) 方程式及公式不只一個時應編排序號，該序號應以圓括弧標註於最後一行的最右邊。例如：
+\begin_inset Formula \begin{equation}
+E=mc^{2}.\end{equation}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(3) 在正文提到相關之方程式或公式時，須表明該方程式之名稱及序號。
+\begin_inset Newline newline
+\end_inset
+
+(4) 如果方程式較長需轉行時，只能在加、減、乘、除、大於、小於等運算子符號處轉行。上下式儘可能在等號「=」處對齊。例如：
+\begin_inset Formula \begin{equation}
+\begin{split}f(x) & =f(0)+f'(0)x+\frac{f''(0)}{2!}x^{2}+\frac{f'''(0)}{3!}x^{3}+\cdots\\
+ & =1+\frac{1}{2}x+\left(-\frac{1}{8}\right)x^{2}+\left(\frac{1}{16}\right)x^{3}+\cdots.\end{split}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(5) 正文中之分數應使用 ``/'' 以區分分子與分母。例如：1/2。
+\end_layout
+
+\begin_layout Description
+論文本文註腳 有下列注意事項
+\begin_inset Newline newline
+\end_inset
+
+(1) 特殊事項論點等，可使用註腳 (Footnote) 說明。
+\begin_inset Newline newline
+\end_inset
+
+(2) 註腳應依順序編號，編號標於相關文右上角
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+這是 footnote 的例子。
+\end_layout
+
+\end_inset
+
+以備參閱。各章內編號連續，各章之間不相接續。
+\begin_inset Newline newline
+\end_inset
+
+(3) 註腳號碼及內容繕於同頁底端版面內，與正文之間加劃橫線區隔，頁面不足可延用次頁底端版面。
+\end_layout
+
+\begin_layout Description
+論文本文文獻參閱 文中所有參考之文獻，不分中英文及章節，均依參閱順序連續編號，並將參閱編號，加中括號
+\begin_inset space ~
+\end_inset
+
+[
+\begin_inset space ~
+\end_inset
+
+]
+\begin_inset space ~
+\end_inset
+
+號標明於參閱處。文獻資料另編錄於論文本文之後。
+\end_layout
+
+\begin_layout Description
+論文本文圖表編排 有下列注意事項
+\begin_inset Newline newline
+\end_inset
+
+(1) 表號及表名列於表上方，圖號及圖名置於圖下方。資料來源及說明，一律置於表圖下方。
+\begin_inset Newline newline
+\end_inset
+
+(2) 圖表內文數字應予打字或以工程字書寫。
+\end_layout
+
+\begin_layout Description
+參考文獻資料編排 所有參考文獻資料，均置於論文本文之後，獨立另起一頁，按參閱編號依次編錄，頁次仍以本文接續。
+\end_layout
+
+\begin_layout Description
+附錄 凡屬大量數據、推導、註釋有關或其他冗長被參之資料、圖表，均可分別另起一頁，編為各附錄。正文中未引用之參考文獻應列出書目置於附錄之中。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+每個獨立的LyX章節檔的最後都要有後面這個comment, 才能抓得到文獻的資料庫。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "my_bib"
+options "ieeetr"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
