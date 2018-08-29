@@ -1,29 +1,31 @@
-# 论文写作
+---
+description: 收集各种优质资源
+---
 
-- [如何写论文](http://abacus.bates.edu/~ganderso/biology/resources/writing/HTWtoc.html)
-- [如何用Markdown写论文？](https://zhuanlan.zhihu.com/p/31690364?edition=yidianzixun&utm_source=yidianzixun&yidian_docid=0HqVqEJV&yidian_s=9&yidian_appid=yidian)
-- [如何把思维导图秒变成幻灯？](https://www.jianshu.com/p/f274cad20914)
-- [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
-- [论文格式排版你真的做对了吗? 常用格式及其LaTeX书写方法介绍](https://zhuanlan.zhihu.com/p/29587837?edition=yidianzixun&utm_source=yidianzixun&yidian_docid=0HL7su2R&yidian_s=9&yidian_appid=yidian)
+# 介绍
 
-# LaTex 使用教程
-- [从零开始 LaTeX 快速入门](http://liuchengxu.org/blog-cn/posts/quick-latex/)
-- [Latex之安装宏包](http://www.xuebuyuan.com/1673310.html)
-- [LaTeX 算法代码排版 --latex2e范例总结](http://www.cnblogs.com/tsingke/p/5833221.html)
-- [各种表格的绘制](https://liam0205.me/2013/08/04/LaTeX-table/)
-- [Latex排版全解](http://www.cnblogs.com/jingwhale/p/4250296.html)
-- [LaTex 小技巧](http://www.cnblogs.com/q735613050/p/8283134.html)
-- [LaTeX算法排版 笔记](http://www.cnblogs.com/q735613050/p/8283081.html)
-- [Latex 学习之旅（一）](http://www.cnblogs.com/q735613050/p/8276640.html)
-- [文字排版问题](https://www.zybuluo.com/xinet/note/1017294)
-- [LaTeX 中文模版收集](https://github.com/DeathKing/LaTeX-Template-Cn)
-- [LaTeX 科技排版](http://math.ecnu.edu.cn/~latex/)
-- [LaTeX Templates](https://www.latextemplates.com/)
-- [LaTeX工作室](http://www.latexstudio.net/)
-  - [论文模板](http://www.latexstudio.net/archives/category/latex-templates/thesis-template)
-- [OverLeaf](https://www.overleaf.com/latex/templates/)
-- [元智大學論文 LaTeX 格式檔快速上手](http://exciton.eo.yzu.edu.tw/~lab/latex/howto_yzu_thesis.html)
-- [LaTeX 编辑部](http://www.latexstudio.net/hulatex/tutorial/ChineseBase.htm)
+- 待阅读的优质资料: [raw](raw/README.md)
+- 如果你对该项目感兴趣, 欢迎参与. 具体查看[项目说明](raw/intros.md)
+- 一些小技巧: [tips](写作/tips/README.md)
 
-# 简历
-- [你用什么写简历:word?pdf?Latex?Markdown?Html?](http://ningning.today/2015/04/03/funny/你用什么写简历/)
+## 我的学习笔记
+
+- [LearningNoteBook](https://q735613050.github.io/LearningNoteBook/)
+- [AI](https://q735613050.github.io/AI/)
+- [深度学习之旅](https://q735613050.github.io/XinetStudio/)
+- [dataLoader](https://q735613050.github.io/dataLoader/)
+- [学习资料](https://q735613050.github.io/TextStudio/)
+- [Reading-Writing](https://q735613050.github.io/Reading-Writing/)
+
+## 我的博客
+
+- [梯度寻优](https://www.cnblogs.com/q735613050/p/9503019.html)
+
+## 集思广益
+
+- [妙语](写作/README.md)
+- [机器学习中的特征空间](slides/特征空间.md)
+
+GitBook: https://www.gitbook.com/join/xinetbook/-LL3MfMY-kylad2uiiSI
+
+
