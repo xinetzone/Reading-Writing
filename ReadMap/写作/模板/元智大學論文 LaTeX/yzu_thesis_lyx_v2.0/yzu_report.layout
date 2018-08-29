@@ -1,0 +1,5 @@
+#% Do not delete the line below; configure depends on this      
+#  \DeclareLaTeXClass[yzu_report]{YZU thesis}
+
+# Read the definitions from report.layout
+Input report.layout
