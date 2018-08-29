@@ -15,7 +15,6 @@ description: 收集各种优质资源
 - [深度学习之旅](https://q735613050.github.io/XinetStudio/)
 - [dataLoader](https://q735613050.github.io/dataLoader/)
 - [学习资料](https://q735613050.github.io/TextStudio/)
-- [Reading-Writing](https://q735613050.github.io/Reading-Writing/)
 
 ## 我的博客
 
@@ -27,5 +26,3 @@ description: 收集各种优质资源
 - [机器学习中的特征空间](slides/特征空间.md)
 
 GitBook: https://www.gitbook.com/join/xinetbook/-LL3MfMY-kylad2uiiSI
-
-
