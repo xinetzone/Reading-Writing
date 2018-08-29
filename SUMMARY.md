@@ -1,5 +1,6 @@
 # Table of contents
 
-* [概要](gai-yao.md)
-* [学习资源](xue-xi-zi-yuan.md)
+- [奇思妙想](写作/README.md)
+
+- [学习资源](xue-xi-zi-yuan.md)
 
