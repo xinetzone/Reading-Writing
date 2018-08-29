@@ -22,7 +22,7 @@ description: 收集各种优质资源
 
 ## 集思广益
 
-- [妙语](写作/README.md)
+- [奇思妙想](写作/README.md)
 - [机器学习中的特征空间](slides/特征空间.md)
 
 GitBook: https://www.gitbook.com/join/xinetbook/-LL3MfMY-kylad2uiiSI
