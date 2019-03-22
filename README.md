@@ -2,11 +2,8 @@
 
 ## 我的学习笔记
 
-* [LearningNoteBook](https://xinetzone.github.io/LearningNoteBook/)
 * [AI](https://xinetzone.github.io/AI/)
 * [深度学习之旅](https://xinetzone.github.io/XinetStudio/)
-* [dataLoader](https://xinetzone.github.io/dataLoader/)
-* [学习资料](https://xinetzone.github.io/TextStudio/)
 
 ## 相关介绍
 
